@@ -1,0 +1,27 @@
+package mp3;
+import java.util.Scanner;
+public class main1 {
+
+    public static void main(String[] args) {
+        //TODO
+        // This program will accept a numeric input from the user
+
+        Scanner input=new Scanner(System.in);
+
+        double scr;
+        int t_items;
+        int c=50;
+        int d=50;
+        double eg;
+
+        System.out.println("This program will compute for the equivalent grade");
+        System.out.println("The formula is eg=score/no.items*50+50");
+        System.out.println("----------------------------------------");
+        System.out.println("Please enter your Score              : ");
+        scr=input.nextDouble();
+        System.out.println("Please enter the total number of items: ");
+        t_items=input.nextInt();
+        eg=scr/t_items*c+d;
+        System.out.println("Equivantent Grade                    :"+eg);
+    }
+}
