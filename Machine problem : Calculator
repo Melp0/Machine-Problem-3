@@ -1,0 +1,31 @@
+package mp3;
+import java.util.Scanner;
+public class main1 {
+
+    public static void main(String[] args) {
+        //TODO
+        // This program will accept a numeric input from the user
+
+        Scanner input=new Scanner(System.in);
+
+        int a;
+        int b;
+        int c;
+        int d;
+        int e;
+        int f;
+
+        System.out.println("Please enter 1st number              : ");
+        a=input.nextInt();
+        System.out.println("Please enter 2nd number              : ");
+        b=input.nextInt();
+        c=a+b;
+        d=a*b;
+        e=a/b;
+        f=a-b;
+        System.out.println("The Sum is: "+c);
+        System.out.println("The Product is: "+d);
+        System.out.println("The Quotient is: "+e);
+        System.out.println("The Difference is: "+f);
+    }
+}
