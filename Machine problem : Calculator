@@ -15,6 +15,7 @@ public class main1 {
         int e;
         int f;
 
+        System.out.println("SIMPLE JAVA CALCULATOR");
         System.out.println("Please enter 1st number              : ");
         a=input.nextInt();
         System.out.println("Please enter 2nd number              : ");
